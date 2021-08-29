@@ -51,7 +51,7 @@ function setup(){
   //cria ground
   ground = createSprite(300,190,1200,20);
   //adiciona imagem de ground
-  ground.addImage("ground", ground)
+  ground.addImage("ground", imagemDoSolo)
   ground.x = ground.width/2;
   
   //cria ground invisível
